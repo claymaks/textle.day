@@ -9,6 +9,10 @@ include_in_header: true
 ### `Latest`
 # **Version 1.1.1**
 
+#### What's New
+- Emojis can be disabled by sending EMOJIS
+  ![no-emojis](/assets/changelog/no-emojis.PNG)
+
 #### Bug Fixes
 - Mishandled multiple occurrences of letters all in the wrong spot.  Thanks, Bri!
 
