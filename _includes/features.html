@@ -11,12 +11,18 @@
             </span>
         </div>
         <div class="featureText">
-            <h3>
-                {{ feature.title }}
-            </h3>
-            <p>
-                {{ feature.description }}
-            </p>
+            {% if feature.fontawesome_icon_name == "info-circle" %}
+                <h3>
+                    <a href="{{ feature.description }}">{{ feature.title }}</a>
+                </h3>
+            {% else %}
+                <h3>
+                    {{ feature.title }}
+                </h3>
+                <p>
+                    {{ feature.description }}
+                </p>
+            {% endif %}
         </div>
     </div>
     {% endif %}
