@@ -12,12 +12,13 @@ include_in_header: true
 #### What's New
 - Emojis can be disabled by sending EMOJIS
   ![no-emojis](/assets/changelog/no-emojis.PNG)
+- Ensure selected word of the day can't be repeated (or, attempts to find a new word 10 times before giving up and going with the selected word)
 
 #### Bug Fixes
 - Mishandled multiple occurrences of letters all in the wrong spot.  Thanks, Bri!
+- Games could be created slightly before 7pm, causing bad lookups for current game. Thanks, Maude!
 
 #### TODO
-- Ensure selected word of the day can't be repeated.
 - Curate a list of possible words for the day (as opposed to choosing from the dictionary)
 - Find a cheaper alternative to Twilio SMS while keeping the core texting feature.
 
