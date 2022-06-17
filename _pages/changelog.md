@@ -50,7 +50,7 @@ ________
 <br>
 
 ## **Version 0.2  | Feb 17, 2022**
-Textle is now hosted on Google App Engine using a Mongo as a database.  GAE has a < 2 second wake-up (as opposed to Heroku's 15s) and gives a $300 credit.  Luckily (as if by design), Textle has extremely low CPU utilization meaning I'm spending close to $0 a month.  For the future, I need to watch memory usage as I pull the dictionary of words into memory.  I'm using MongoDB because I hate databases and wanted to give it a go.  It was also free.
+Textle is now hosted on Google App Engine using MongoDB for storage.  GAE has a < 2 second wake-up (as opposed to Heroku's 15s) and gives a $300 credit.  Luckily (as if by design), Textle has extremely low CPU utilization meaning I'm spending close to $0 a month.  For the future, I need to watch memory usage as I pull the dictionary of words into memory.  I'm using MongoDB because I hate databases and wanted to give it a go.  It was also free.
 
 #### What's New
 - Textle is now hosted on Google App Engine
