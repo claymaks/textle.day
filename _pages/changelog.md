@@ -69,6 +69,6 @@ On February 15th at 12:05am, I heard someone spoil the Wordle in the school libr
   - game errors (word length, doesn't exist)
   - solved/failed
 - Twilio integration for playing the game via text
-- In-memory database (which is a fancy way of saying there is no database, just a dictionary full of phone number to user object mappings)
+- In-memory database (which is a fancy way of saying there is no database, just a dictionary full of phone-number-to-user object mappings)
 
 <br>
